@@ -1,0 +1,34 @@
+{
+  "name": "hemotely-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "hemotely backend, api , endpoints",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Ifeanyi Anuebunwa",
+  "keywords": [
+    "api",
+    "backend",
+    "hemotely"
+  ],
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "chai": "^4.3.4",
+    "cloudinary": "^1.25.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.0",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.7",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "mocha": "^8.3.2"
+  }
+}
